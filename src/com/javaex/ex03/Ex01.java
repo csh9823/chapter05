@@ -8,7 +8,7 @@ import java.io.Writer;
 public class Ex01 {
 
 	public static void main(String[] args) throws IOException {
-		
+		//파일 안에 글 쓰는법
 		Writer fw = new FileWriter("E:\\javaStudy\\file\\song.txt");
 		BufferedWriter bw = new BufferedWriter(fw);
 		

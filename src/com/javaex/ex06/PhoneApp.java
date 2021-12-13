@@ -11,7 +11,7 @@ public class PhoneApp {
 
 	public static void main(String[] args) throws IOException{
 		
-		//ArrayList 메모리에 올리기
+		//ArrayList 메모리에 올리기 List 자동 생성 추가되도 자동으로 늘려줌
 		List<Person> pList = new ArrayList<Person>();
 		
 		
@@ -34,9 +34,10 @@ public class PhoneApp {
 			
 			//Person 객체를 생성하고 값을 넣어준다.
 			Person p01= new Person(name,hp,company);
-			Person p02= new Person(name,hp,company);
+			
 			//List에 추가해준다
 			pList.add(p01);
+			
 			
 		}
 		
